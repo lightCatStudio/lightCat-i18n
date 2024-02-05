@@ -57,13 +57,13 @@ $lightCat.i18n({
 |    light-i18n-p    | placeholder渲染   |
 |    light-i18n-v    | value渲染   |
 这几个参数来完成。
-## 第一步，配置语言包:(zh-cn.json)
+#### 第一步，配置语言包:(zh-cn.json)
 ```json
 {
     "hello": "你好"
 }
 ```
-## 第二步，配置页面元素
+##### 第二步，配置页面元素
 ```Html
 <h1 light-i18n="hello"></h1> //普通文本
 ```
@@ -74,7 +74,7 @@ $lightCat.i18n({
 <input type="text" light-i18n-v="hello"/> //value渲染
 ```
 之后你就可以在页面看到输出的结果！是不是很简单！
-### 最后，语音选择实现的简单小例子
+# 最后，语音选择实现的简单小例子
 ```html
 <select id="languageSelect">
   <option value="zh-cn.json" selected>中文简体</option>
