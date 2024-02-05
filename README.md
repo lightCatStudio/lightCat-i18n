@@ -5,7 +5,7 @@
 
 [lightCatCode](https://lightCatCode.flarum.cloud)
 ### 一，引入lightCat-i18n
-##### 1.通过网络jsDelivr引入
+#### 1.通过网络jsDelivr引入
 适用于调试环境的js文件
 ```JavaScript
 <script src='https://cdn.jsdelivr.net/gh/lightCatStudio/lightCat-i18n@main/lightCat-i18n.js'></script>
@@ -14,7 +14,7 @@
 ```JavaScript
 <script src='https://cdn.jsdelivr.net/gh/lightCatStudio/lightCat-i18n@main/lightCat-i18n.min.js'></script>
 ```
-##### 2.通过Github仓库下载之后引入文件
+#### 2.通过Github仓库下载之后引入文件
 ### 二，使用lightCat-i18n
 > 在开始之前请确保项目已经正确引入`lightCat-i18n.js`或者`lightCat-i18n.min.js`！
 
