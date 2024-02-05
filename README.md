@@ -74,7 +74,7 @@ $lightCat.i18n({
 <input type="text" light-i18n-v="hello"/> //value渲染
 ```
 之后你就可以在页面看到输出的结果！是不是很简单！
-# 最后，语音选择实现的简单小例子
+# 最后，语言选择实现的简单小例子
 ```html
 <select id="languageSelect">
   <option value="zh-cn.json" selected>中文简体</option>
